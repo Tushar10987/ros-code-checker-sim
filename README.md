@@ -64,7 +64,7 @@ pip install flask flake8
 
 How to Run
 1. Clone Repository
-git clone https://github.com/<your-username>/ros-code-checker-sim.git
+git clone https://github.com/Tushar10987/ros-code-checker-sim.git
 cd ros-code-checker-sim
 
 2. Start the Web Application
