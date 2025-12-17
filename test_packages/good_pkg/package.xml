@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>good_pkg</name>
+  <version>0.0.1</version>
+  <description>Minimal valid ROS2 package</description>
+
+  <maintainer email="test@test.com">Test</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+
+</package>

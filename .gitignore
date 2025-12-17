@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Flask
+instance/
+
+# ROS / Build
+build/
+install/
+log/
+workspace/
+
+# Gazebo
+~/.gazebo/
+*.log
+
+# Screenshots / previews
+backend/static/preview/*.png
+
+# Zip uploads
+uploads/
+
+# OS
+.DS_Store

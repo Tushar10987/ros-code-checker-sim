@@ -1,0 +1,6 @@
+STATUS: PASS
+
+ERRORS:
+
+WARNINGS:
+{'file': 'workspace/good_pkg/good_pkg/simple_node.py', 'warning': 'workspace/good_pkg/good_pkg/simple_node.py:24:1: W391 blank line at end of file'}

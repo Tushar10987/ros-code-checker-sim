@@ -1,0 +1,6 @@
+STATUS: FAIL
+
+ERRORS:
+No ROS package found
+
+WARNINGS:

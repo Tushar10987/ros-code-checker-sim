@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="simple_arm">
+    <static>true</static>
+
+    <link name="base">
+      <visual name="base_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="arm">
+      <pose>0 0 0.25 0 0 0</pose>
+      <visual name="arm_visual">
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.3</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

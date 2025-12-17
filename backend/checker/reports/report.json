@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "errors": [
+    "No ROS package found"
+  ],
+  "warnings": [],
+  "nodes": []
+}

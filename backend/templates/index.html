@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ROS Code Checker & Simulator</title>
+</head>
+<body>
+
+<h2>Upload ROS Package (ZIP)</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="zipfile" required>
+    <button type="submit">Run</button>
+</form>
+
+{% if report %}
+<h3>Checker Report</h3>
+<pre>{{ report }}</pre>
+{% endif %}
+
+{% if image %}
+<h3>Simulation Preview</h3>
+<img src="{{ url_for('static', filename=image) }}" width="600">
+{% endif %}
+
+</body>
+</html>

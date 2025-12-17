@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    {
+      "file": "workspace/good_pkg/good_pkg/simple_node.py",
+      "warning": "workspace/good_pkg/good_pkg/simple_node.py:24:1: W391 blank line at end of file"
+    }
+  ],
+  "nodes": [
+    {
+      "file": "workspace/good_pkg/good_pkg/simple_node.py",
+      "publishers": 1,
+      "subscribers": 0,
+      "services": 0
+    }
+  ]
+}
